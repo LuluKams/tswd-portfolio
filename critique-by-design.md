@@ -1,59 +1,54 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+# Visualizing Risk: Microscopic Vectors vs. Cinematic Predators
 
-# Title
-Text here...
+## Step 1: The Original Data Visualization
+The original visualization analyzed animal-related human fatalities using data from *Our World in Data*. I selected this visualization because the popular perception of deadly animals is heavily skewed by cultural media and cinematic depictions of apex predators like sharks and lions, rather than the public health reality of insect-borne pathogens.
 
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
+[Link to Original Visualization on Our World in Data](https://ourworldindata.org/)
 
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+---
 
-## Step one: the visualization
+## Step 2: Critique Method & Initial Insights
+Using Stephen Few's Data Visualization Effectiveness Profile, I evaluated the original chart's capacity to communicate relative risk:
+* **The Scale Problem:** Placing mosquitoes (~760,000 deaths) on the same single linear scale as sharks (~6 deaths) completely flattened apex predators against the baseline, making them visually indistinguishable from zero.
+* **Mechanism Ambiguity:** The chart listed animals alphabetically or by raw count without distinguishing *how* the deaths occurred (pathogen transmission vs. envenomation vs. direct physical attacks).
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+---
 
-## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+## Step 3: Wireframes & Initial Sketches
+To resolve the scale compression, I developed an initial sketch featuring a two-panel split layout:
+* **Panel 1 (Global Macro Impact):** A linear scale (0 to 800,000) focusing on high-magnitude vectors and direct human conflict.
+* **Panel 2 (Magnified View: Feared Predators):** A focused inset scale isolating feared predators.
+* **Color Encoding:** Blue for pathogen/parasite vectors, orange for biological venom, and red for direct physical trauma.
 
-## Step three: Sketch a solution
+View or download the complete initial design sketch:
+📄 **[Download / View Initial Design Sketch (PDF)](sketch.pdf)**
 
-## Step four: Test the solution
+<iframe src="sketch.pdf" width="100%" height="550px"></iframe>
 
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
+---
 
-Questions to ask (modify these for your own interviews): 
+## Step 4: User Feedback & Revisions
+I conducted user feedback sessions with two peers (Interviewee C and Interviewee I):
+* **Scale Separation:** Both users appreciated the separate inset panel, noting it immediately clarified how insignificant shark and lion attacks are relative to insect-borne illnesses.
+* **Clarity of Mechanism:** One user pointed out that dogs should be grouped with disease vectors rather than physical trauma, as dog-related human fatalities are overwhelmingly driven by rabies transmission.
+* **Modifications Applied:** I aligned the color coding so dogs, snails, and mosquitoes share the pathogen vector palette, and clarified the axis titles with explicit scale notes.
 
-- Can you tell me what you think this is?
+---
 
-- Can you describe to me what this is telling you?
+## Step 5: The Final Solution
 
-- Is there anything you find surprising or confusing?
+### Design Transition Note
+During the initial sketching phase, I estimated apex predator counts based on general figures (placing Crocodiles at the top of the magnified view). When transitioning to Tableau and connecting the official dataset extract, the reported figures placed Lions higher (300) than Crocodiles (150). Rather than forcing the visual to match the initial sketch, I let the underlying data drive the sorting order while preserving the two-panel magnified architecture and trauma color coding.
 
-- Who do you think is the intended audience for this?
+### Final Interactive Dashboard
 
-- Is there anything you would change or do differently?
-
-Results: 
-
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
+<div class='tableauPlaceholder' id='viz1789616837282' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldsDeadliestAnimalsRedesign&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WorldsDeadliestAnimalsRedesign&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldsDeadliestAnimalsRedesign&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1789616837282');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
 
-Synthesis: 
+---
 
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
-
-## Step five: build the solution
-
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
-
-## References
-_List any references you used here._
-
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+## Sources & AI Disclosure
+* **Data Sources:** *Our World in Data*, IHME Global Burden of Disease, World Health Organization (WHO), UNODC.
+* **Design Frameworks:** Stephen Few's Data Visualization Effectiveness Profile.
+* **Generative AI Usage:** Generative AI (Google Gemini) was utilized during the development of this project as a design thinking collaborator and technical reference. Specifically, AI was used to help brainstorm layout architectures for handling multi-order-of-magnitude discrepancies, refine qualitative color palette assignments, troubleshoot Tableau Web Authoring axis formatting, and assist in drafting structural Markdown scaffolding for documentation.
