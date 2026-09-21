@@ -8,7 +8,7 @@
 
 Over the past two decades, passenger vehicle cabins have become safer than at any point in automotive history. Advances in reinforced steel safety cages, crumple zones, and multi-angle airbag systems have steadily protected vehicle occupants during collisions. However, this private safety sanctuary coincided with an alarming public health failure outside the vehicle: pedestrian fatalities across the United States increased by over 70% between 2010 and 2022, climbing to more than 7,400 annual deaths. 
 
-This project investigates the physical, environmental, and consumer dynamics driving this divergence. While popular media narratives often frame pedestrian collisions as individual behavioral lapses—citing smartphone distraction or pedestrian jaywalking—the empirical crash record demonstrates that this spike directly corresponds to a fundamental transformation of the American passenger vehicle fleet. As consumer preferences shifted overwhelmingly toward heavier, taller light trucks and full-size SUVs with blunt, high-profile front hoods, crash impact physics changed catastrophically for vulnerable road users. By contextualizing federal crash records, vehicle dimensional changes, and roadway infrastructure disparities, this visual data story aims to steer the conversation toward systemic solutions: federal pedestrian-safety vehicle regulations, vehicle hood geometry standards, and pedestrian-priority street design.
+This project investigates the physical, environmental, and consumer dynamics driving this divergence. While popular media narratives often frame pedestrian collisions as individual behavioral lapses, citing smartphone distraction or pedestrian jaywalking—the empirical crash record demonstrates that this spike directly corresponds to a fundamental transformation of the American passenger vehicle fleet. As consumer preferences shifted overwhelmingly toward heavier, taller light trucks and full-size SUVs with blunt, high-profile front hoods, crash impact physics changed catastrophically for vulnerable road users. By contextualizing federal crash records, vehicle dimensional changes, and roadway infrastructure disparities, this visual data story aims to steer the conversation toward systemic solutions: federal pedestrian-safety vehicle regulations, vehicle hood geometry standards, and pedestrian-priority street design.
 
 ---
 
@@ -18,12 +18,12 @@ In alignment with Scott Berinato's Good Charts (Chapter 8: Story Structure), thi
 
 * **Setup (The Divergence):** The general public assumes roads are safer due to modern in-car tech, but pedestrian fatalities are rapidly climbing while occupant fatalities fall.
 * **Rising Action (Fleet Shift):** Exploring the consumer shift from sedans to heavy SUVs/pickups, tracking curb weight growth and hood heights.
-* **Climax (The Geometry of Impact):** Analyzing the biomechanics of impact—how blunt SUV grilles strike vital organs directly and carry a fatal risk multiplier compared to lower sedan bumpers.
+* **Climax (The Geometry of Impact):** Analyzing the biomechanics of impact,how blunt SUV grilles strike vital organs directly and carry a fatal risk multiplier compared to lower sedan bumpers.
 * **Falling Action (The Infrastructure Gap):** Examining compounding 2023 crash environment factors (75%+ occurring at night, missing crosswalks and sidewalks on arterial roads).
 * **Resolution (Redesigning Survival):** Actionable policy and design levers (federal vehicle hood standards, nighttime automatic emergency braking, and urban traffic calming).
 
 ### One-Sentence Story Summary:
-While modern vehicle design has engineered unprecedented safety for drivers, the unchecked growth of heavy, tall-front SUVs has exported fatal risk onto pedestrians—a public health crisis that demands regulatory and physical design intervention.
+While modern vehicle design has engineered unprecedented safety for drivers, the unchecked growth of heavy, tall-front SUVs has exported fatal risk onto pedestrians, a public health crisis that demands regulatory and physical design intervention.
 
 ### User Stories & Target Audiences:
 * **The Concerned Urban Resident / Commuter:** "As a pedestrian and transit user, I want to understand whether roads are truly getting more dangerous for people walking, so that I can advocate for traffic calming and safer street design in my neighborhood."
