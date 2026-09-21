@@ -31,10 +31,10 @@ Here is the link to my personal portfolio: lulukams.github.io/portfolio
 
 ### Assignments & Workshops
 * **Assignment 1:** Setting Up Your Online Portfolio *(Current)*
-* **Visual Critiques:** *[Critique & Redesign: World's Deadliest Animals](critique-by-design)*
+* **Visual Critiques:** *[Critique & Redesign: World's Deadliest Animals](critique-by-design.md)*
 * **Workshop Exercises:** *Coming Soon*
 
 ### Final Project
-* **Milestone 1:** [Final Project Part I: Proposal & Story Architecture](final-project-part-one)
+* **Milestone 1:** [Final Project Part I: Proposal & Story Architecture](final-project-part-one.md)
 * **Milestone 2:** Exploratory Analysis & Draft Wireframes
 * **Milestone 3:** Final Data Story & Presentation
