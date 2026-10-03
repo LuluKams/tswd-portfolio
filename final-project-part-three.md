@@ -7,7 +7,7 @@
 ## 1. Final Deliverable Links
 
 * **Live Interactive Data Story (Shorthand):** [Shielded Inside, Endangered Outside](https://carnegiemellon.shorthandstories.com/shielded-inside-endangered-outside/index.html)
-* **Tableau Public Worksheet:** [Pedestrian vs Occupant Divergence](https://public.tableau.com/)
+* **Tableau Public Worksheet:** [Pedestrian vs Occupant Divergence](https://public.tableau.com/app/profile/lucy.kamlewechi/viz/PedestrianvsOccupantDivergence/Sheet1)
 * **Project Documentation Repository:** [tswd-portfolio](https://github.com/lulukams/tswd-portfolio)
 
 ---
